@@ -1,9 +1,3 @@
-from pprint import pprint as pp
-from glob import glob
-try: reduce
-except: from functools import reduce
-try:    raw_input
-except: raw_input = input
 import re
 import PyPDF2
 import pickle
@@ -75,7 +69,6 @@ def getSearchList(term):
         return inverseIndex[term]
     else:
         return []
-    return u
 
 
 def parsePDF(pdf):
