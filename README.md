@@ -23,7 +23,7 @@
     * NOTE - Only above code of above classes is implemented, integration with application remains
 
 # Instructions
-    1. Go to (Heroku) - 
+    1. Go to (Heroku) - https://enigmatic-garden-97449.herokuapp.com/
     2. Click on 'clear' to clear index
     3. Click on 'index' to index the document
     4. Click on 'Search' to search for word
