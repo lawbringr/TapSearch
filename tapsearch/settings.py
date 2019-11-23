@@ -25,7 +25,7 @@ SECRET_KEY = 'ceiyxl(isyz7rqfk)y!5$9(k$$sjbr1!tg4(-qn!csiglkm@tp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['enigmatic-garden-97449.herokuapp.com']
 
 
 # Application definition
