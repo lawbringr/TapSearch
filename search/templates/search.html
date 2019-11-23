@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form action="">
+                <input type="text" name="term" >
+                <button>search</button>
+        </form>
+
+        {% if docs %}
+
+            {% for doc in docs %}
+            <div class='imp_message'>
+                <h1>{{ doc.name }}</h1>
+                {{doc.doc}}
+                <br>
+            </div>
+            {% endfor %}
+        {% endif %}
+        {% if noneFound %}
+            <h1>{{ noneFound }}</h1>
+        {% endif %}
+
+</body>
+
+<script>
+    var url_string= window.location.href
+    var url = new URL(url_string)
+    document.getElementById('txtUrl').value = url.searchParams.get("term");
+</script>
+
+</html>
