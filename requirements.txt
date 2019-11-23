@@ -1,0 +1,5 @@
+Django==2.2.7
+PyPDF2==1.26.0
+pytz==2019.3
+sqlparse==0.3.0
+gunicorn==19.6.0
